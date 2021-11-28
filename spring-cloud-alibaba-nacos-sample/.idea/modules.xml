@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/nacos-consumer-sample/nacos-consumer-sample.iml" filepath="$PROJECT_DIR$/nacos-consumer-sample/nacos-consumer-sample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/nacos-provider-sample8081/nacos.provider-sample8081.iml" filepath="$PROJECT_DIR$/nacos-provider-sample8081/nacos.provider-sample8081.iml" />
+      <module fileurl="file://$PROJECT_DIR$/nacos-provider-sample8082/nacos.provider-sample8082.iml" filepath="$PROJECT_DIR$/nacos-provider-sample8082/nacos.provider-sample8082.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-alibaba-nacos-sample.iml" filepath="$PROJECT_DIR$/spring-cloud-alibaba-nacos-sample.iml" />
+    </modules>
+  </component>
+</project>
