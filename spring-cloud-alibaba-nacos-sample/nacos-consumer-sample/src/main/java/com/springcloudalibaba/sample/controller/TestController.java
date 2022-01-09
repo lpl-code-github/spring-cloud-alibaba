@@ -1,5 +1,6 @@
 package com.springcloudalibaba.sample.controller;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.client.RestTemplate;
@@ -13,6 +14,7 @@ public class TestController {
     private final String SERVER_URL = "http://nacos-provider-sample";
 
     @Resource
+    @Autowired
     private RestTemplate restTemplate;
 
     @GetMapping("/test")

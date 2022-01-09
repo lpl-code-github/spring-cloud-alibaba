@@ -5,12 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8316cd33-002b-4aef-80c0-823390096467" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_cloud_spring_cloud_starter_alibaba_nacos_config_2_1_2_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nacos-consumer-sample/nacos-consumer-sample.iml" beforeDir="false" afterPath="$PROJECT_DIR$/nacos-consumer-sample/nacos-consumer-sample.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nacos-consumer-sample/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/nacos-consumer-sample/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nacos-consumer-sample/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/nacos-consumer-sample/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nacos-consumer-sample/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/nacos-consumer-sample/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nacos-consumer-sample/src/main/java/com/springcloudalibaba/sample/controller/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/nacos-consumer-sample/src/main/java/com/springcloudalibaba/sample/controller/TestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nacos-consumer-sample/src/main/resources/bootstrap.properties" beforeDir="false" afterPath="$PROJECT_DIR$/nacos-consumer-sample/src/main/resources/bootstrap.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nacos-consumer-sample/target/classes/bootstrap.properties" beforeDir="false" afterPath="$PROJECT_DIR$/nacos-consumer-sample/target/classes/bootstrap.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nacos-consumer-sample/target/classes/com/springcloudalibaba/sample/controller/TestController.class" beforeDir="false" afterPath="$PROJECT_DIR$/nacos-consumer-sample/target/classes/com/springcloudalibaba/sample/controller/TestController.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,12 +65,16 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.17586207" />
-    <property name="settings.editor.selected.configurable" value="advanced.settings" />
+    <property name="settings.editor.selected.configurable" value="preferences.general" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\idea-project\spring-cloud-alibaba\spring-cloud-alibaba-nacos-sample\nacos-consumer-sample\src\main\resources" />
       <recent name="E:\idea-project\spring-cloud-alibaba\spring-cloud-alibaba-nacos-sample" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.springcloudalibaba.sample" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.springcloudalibaba.sample.config" />
@@ -83,7 +87,20 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.NacosConsumerSampleApplication">
+  <component name="RunManager" selected="Application.Lpl">
+    <configuration name="Lpl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.springcloudalibaba.sample.controller.Lpl" />
+      <module name="nacos-consumer-sample" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.springcloudalibaba.sample.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <method v="2">
         <option name="Make" enabled="true" />
@@ -95,7 +112,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NacosConsumerSampleApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+    <configuration name="consumer" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true">
       <module name="nacos-consumer-sample" />
       <extension name="coverage">
         <pattern>
@@ -110,14 +127,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NacosProviderSampleApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+    <configuration name="provider-8081" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="nacos.provider-sample8081" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.springcloudalibaba.sample.NacosProviderSampleApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SHORTEN_COMMAND_LINE" value="NONE" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NacosProviderSampleApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+    <configuration name="provider-8082" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="nacos.provider-sample8082" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.springcloudalibaba.sample.NacosProviderSampleApplication" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -127,13 +146,15 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Spring Boot.NacosProviderSampleApplication" />
-      <item itemvalue="Spring Boot.NacosProviderSampleApplication (1)" />
-      <item itemvalue="Spring Boot.NacosConsumerSampleApplication" />
+      <item itemvalue="Application.Lpl" />
+      <item itemvalue="Spring Boot.provider-8082" />
+      <item itemvalue="Spring Boot.provider-8081" />
+      <item itemvalue="Spring Boot.consumer" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.NacosConsumerSampleApplication" />
+        <item itemvalue="Application.Lpl" />
+        <item itemvalue="Spring Boot.consumer" />
       </list>
     </recent_temporary>
   </component>
@@ -161,10 +182,31 @@
       <workItem from="1638175002861" duration="655000" />
       <workItem from="1638257109714" duration="1000000" />
       <workItem from="1638267277105" duration="34000" />
+      <workItem from="1638335822076" duration="641000" />
+      <workItem from="1638365301023" duration="68000" />
+      <workItem from="1638949955334" duration="689000" />
+      <workItem from="1639054857938" duration="637000" />
+      <workItem from="1639118174139" duration="26000" />
+      <workItem from="1640236895576" duration="30000" />
+      <workItem from="1641484597613" duration="4152000" />
+      <workItem from="1641635954173" duration="357000" />
+      <workItem from="1641659467131" duration="929000" />
+      <workItem from="1641665706246" duration="93000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/nacos-consumer-sample/src/main/java/com/springcloudalibaba/sample/controller/TestController.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
