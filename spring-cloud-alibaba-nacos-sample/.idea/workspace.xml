@@ -5,12 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8316cd33-002b-4aef-80c0-823390096467" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nacos-consumer-sample/src/main/java/com/springcloudalibaba/sample/controller/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/nacos-consumer-sample/src/main/java/com/springcloudalibaba/sample/controller/TestController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nacos-consumer-sample/src/main/resources/bootstrap.properties" beforeDir="false" afterPath="$PROJECT_DIR$/nacos-consumer-sample/src/main/resources/bootstrap.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nacos-consumer-sample/target/classes/bootstrap.properties" beforeDir="false" afterPath="$PROJECT_DIR$/nacos-consumer-sample/target/classes/bootstrap.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nacos-consumer-sample/target/classes/com/springcloudalibaba/sample/controller/TestController.class" beforeDir="false" afterPath="$PROJECT_DIR$/nacos-consumer-sample/target/classes/com/springcloudalibaba/sample/controller/TestController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nacos-consumer-sample/src/main/java/com/springcloudalibaba/sample/config/RibbonConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/nacos-consumer-sample/src/main/java/com/springcloudalibaba/sample/config/RibbonConfiguration.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -192,21 +187,11 @@
       <workItem from="1641635954173" duration="357000" />
       <workItem from="1641659467131" duration="929000" />
       <workItem from="1641665706246" duration="93000" />
+      <workItem from="1641745517193" duration="880000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/nacos-consumer-sample/src/main/java/com/springcloudalibaba/sample/controller/TestController.java</url>
-          <line>22</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

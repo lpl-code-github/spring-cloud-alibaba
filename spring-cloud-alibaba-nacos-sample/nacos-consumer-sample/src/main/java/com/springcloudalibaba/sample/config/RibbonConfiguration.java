@@ -18,7 +18,6 @@ public class RibbonConfiguration {
 //        return new RandomRule();  // 负载均衡规则，改为随机
 //    }
 
-
     @Bean  // 交给Spring容器初始化的标识
     public IRule ribbonRule() {
         return new CustomRule();  // 负载均衡规则，改为随机
