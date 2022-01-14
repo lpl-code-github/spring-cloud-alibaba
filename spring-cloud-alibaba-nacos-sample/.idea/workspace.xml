@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8316cd33-002b-4aef-80c0-823390096467" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/nacos-consumer-sample/src/main/java/com/springcloudalibaba/sample/config/RibbonConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/nacos-consumer-sample/src/main/java/com/springcloudalibaba/sample/config/RibbonConfiguration.java" afterDir="false" />
+    <list default="true" id="8316cd33-002b-4aef-80c0-823390096467" name="Changes" comment="commit">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -187,11 +187,16 @@
       <workItem from="1641635954173" duration="357000" />
       <workItem from="1641659467131" duration="929000" />
       <workItem from="1641665706246" duration="93000" />
-      <workItem from="1641745517193" duration="880000" />
+      <workItem from="1641745517193" duration="1510000" />
+      <workItem from="1642071698652" duration="2000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit" />
   </component>
 </project>
