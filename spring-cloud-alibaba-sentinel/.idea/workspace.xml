@@ -7,6 +7,7 @@
     <list default="true" id="8316cd33-002b-4aef-80c0-823390096467" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/consumer/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/consumer/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/consumer/target/classes/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/consumer/target/classes/bootstrap.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -177,7 +178,8 @@
       <workItem from="1642071698652" duration="2000" />
       <workItem from="1642071790422" duration="9111000" />
       <workItem from="1642137156654" duration="21320000" />
-      <workItem from="1643212511094" duration="1246000" />
+      <workItem from="1643212511094" duration="3135000" />
+      <workItem from="1643623957159" duration="4275000" />
     </task>
     <task id="LOCAL-00001" summary="增加sentinel持久化 访问nacos数据源的依赖">
       <created>1643212772836</created>
@@ -193,7 +195,28 @@
       <option name="project" value="LOCAL" />
       <updated>1643212784892</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="增加sentinel持久化配置">
+      <created>1643215829847</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1643215829847</updated>
+    </task>
+    <task id="LOCAL-00004" summary=".idea">
+      <created>1643215842000</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1643215842000</updated>
+    </task>
+    <task id="LOCAL-00005" summary="target">
+      <created>1643215851764</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1643215851764</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -209,11 +232,14 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="commit" />
     <MESSAGE value="增加sentinel持久化 访问nacos数据源的依赖" />
+    <MESSAGE value="增加sentinel持久化配置" />
     <MESSAGE value=".idea" />
-    <option name="LAST_COMMIT_MESSAGE" value=".idea" />
+    <MESSAGE value="target" />
+    <option name="LAST_COMMIT_MESSAGE" value="target" />
   </component>
 </project>
