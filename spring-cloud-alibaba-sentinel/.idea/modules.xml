@@ -7,6 +7,7 @@
       <module fileurl="file://$PROJECT_DIR$/nacos-provider-sample8081/nacos.provider-sample8081.iml" filepath="$PROJECT_DIR$/nacos-provider-sample8081/nacos.provider-sample8081.iml" />
       <module fileurl="file://$PROJECT_DIR$/nacos-provider-sample8082/nacos.provider-sample8082.iml" filepath="$PROJECT_DIR$/nacos-provider-sample8082/nacos.provider-sample8082.iml" />
       <module fileurl="file://$PROJECT_DIR$/provider/provider.iml" filepath="$PROJECT_DIR$/provider/provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/provider2/provider2.iml" filepath="$PROJECT_DIR$/provider2/provider2.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-alibaba-sentinel.iml" filepath="$PROJECT_DIR$/spring-cloud-alibaba-sentinel.iml" />
     </modules>
   </component>

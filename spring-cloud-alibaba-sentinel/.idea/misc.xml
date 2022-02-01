@@ -6,6 +6,7 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/nacos-provider-sample8082/pom.xml" />
         <option value="$PROJECT_DIR$/provider-8081/pom.xml" />
+        <option value="$PROJECT_DIR$/provider2/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

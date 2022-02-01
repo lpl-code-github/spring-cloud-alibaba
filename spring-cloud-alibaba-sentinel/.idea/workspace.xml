@@ -5,9 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8316cd33-002b-4aef-80c0-823390096467" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_8_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider2/provider.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider2/provider2.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/consumer/consumer.iml" beforeDir="false" afterPath="$PROJECT_DIR$/consumer/consumer.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/consumer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/consumer/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/consumer/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/consumer/src/main/resources/bootstrap.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/consumer/target/classes/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/consumer/target/classes/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/provider/src/main/resources/bootstrap.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,17 +65,19 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/nacos-consumer-sample/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/provider2" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.17586207" />
+    <property name="project.structure.side.proportion" value="0.31646734" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\idea-project\spring-cloud-alibaba\spring-cloud-alibaba-sentinel" />
       <recent name="E:\idea-project\spring-cloud-alibaba\spring-cloud-alibaba-nacos-sample\nacos-consumer-sample\src\main\resources" />
       <recent name="E:\idea-project\spring-cloud-alibaba\spring-cloud-alibaba-nacos-sample" />
     </key>
@@ -114,6 +125,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ProviderApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="provider2" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.springcloudalibaba.sample.ProviderApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ProviderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="provider" />
       <extension name="coverage">
@@ -130,6 +148,7 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Spring Boot.ProviderApplication (1)" />
       <item itemvalue="Spring Boot.ProviderApplication" />
       <item itemvalue="Spring Boot.ConsumerApplication" />
     </list>
@@ -179,7 +198,7 @@
       <workItem from="1642071790422" duration="9111000" />
       <workItem from="1642137156654" duration="21320000" />
       <workItem from="1643212511094" duration="3135000" />
-      <workItem from="1643623957159" duration="4275000" />
+      <workItem from="1643623957159" duration="14408000" />
     </task>
     <task id="LOCAL-00001" summary="增加sentinel持久化 访问nacos数据源的依赖">
       <created>1643212772836</created>
@@ -216,7 +235,21 @@
       <option name="project" value="LOCAL" />
       <updated>1643215851764</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="新增sentinel持久化配置">
+      <created>1643630505709</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1643630505709</updated>
+    </task>
+    <task id="LOCAL-00007" summary=".idea">
+      <created>1643630520817</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1643630520817</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -238,8 +271,9 @@
     <MESSAGE value="commit" />
     <MESSAGE value="增加sentinel持久化 访问nacos数据源的依赖" />
     <MESSAGE value="增加sentinel持久化配置" />
-    <MESSAGE value=".idea" />
     <MESSAGE value="target" />
-    <option name="LAST_COMMIT_MESSAGE" value="target" />
+    <MESSAGE value="新增sentinel持久化配置" />
+    <MESSAGE value=".idea" />
+    <option name="LAST_COMMIT_MESSAGE" value=".idea" />
   </component>
 </project>
