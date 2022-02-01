@@ -5,28 +5,28 @@ spring:
     name: consumer # 应用名称
   cloud:
     sentinel:
-      datasource:
-        ds1: # ds1是自己取的名字
-          nacos: #表示使用nacos
-            server-addr: 127.0.0.1:8848
-            dataId: sentinel-consumer-ds1 #nacos dataId
-            groupId: DEFAULT_GROUP # 分组 默认分组
-            data-type: json # 数据类型json
-            rule-type: flow # 表示流控规则
-        ds2: # ds2是自己取的名字
-          nacos: #表示使用nacos
-            server-addr: 127.0.0.1:8848
-            dataId: sentinel-consumer-ds2 #nacos dataId
-            groupId: DEFAULT_GROUP # 分组 默认分组
-            data-type: json # 数据类型json
-            rule-type: degrade # 表示熔断规则
-        ds3: # ds2是自己取的名字
-          nacos: #表示使用nacos
-            server-addr: 127.0.0.1:8848
-            dataId: sentinel-consumer-ds3 #nacos dataId
-            groupId: DEFAULT_GROUP # 分组 默认分组
-            data-type: json # 数据类型json
-            rule-type: system # 表示熔断规则
+#      datasource:
+#        ds1: # ds1是自己取的名字
+#          nacos: #表示使用nacos
+#            server-addr: 127.0.0.1:8848
+#            dataId: sentinel-consumer-ds1 #nacos dataId
+#            groupId: DEFAULT_GROUP # 分组 默认分组
+#            data-type: json # 数据类型json
+#            rule-type: flow # 表示流控规则
+#        ds2: # ds2是自己取的名字
+#          nacos: #表示使用nacos
+#            server-addr: 127.0.0.1:8848
+#            dataId: sentinel-consumer-ds2 #nacos dataId
+#            groupId: DEFAULT_GROUP # 分组 默认分组
+#            data-type: json # 数据类型json
+#            rule-type: degrade # 表示熔断规则
+#        ds3: # ds3是自己取的名字
+#          nacos: #表示使用nacos
+#            server-addr: 127.0.0.1:8848
+#            dataId: sentinel-consumer-ds3 #nacos dataId
+#            groupId: DEFAULT_GROUP # 分组 默认分组
+#            data-type: json # 数据类型json
+#            rule-type: system # 表示系统规则
       transport:
         port: 8719 # 启动HTTP Server，并且该服务与Sentinel仪表进行交互，是Sentinel仪表盘可以控制应用，如被占用，则从8719依次+1扫描
         dashboard: 127.0.0.1:8080 # 指定仪表盘地址
