@@ -8,8 +8,9 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class TestController {
 
-    @GetMapping("/test")
-    public String test(){
-        return "provider test方法" + RandomUtils.nextInt(0,100);
+    @GetMapping("/openFeignProviderTest") //提供消费端调用的接口
+    public String openFeignProviderTest() {
+        return "provider-TestController#openFeignProviderTest" + RandomUtils.nextInt(0,100);
     }
+
 }
