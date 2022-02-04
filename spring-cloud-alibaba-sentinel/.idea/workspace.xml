@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8316cd33-002b-4aef-80c0-823390096467" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="8316cd33-002b-4aef-80c0-823390096467" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -189,6 +187,7 @@
       <workItem from="1643212511094" duration="3135000" />
       <workItem from="1643623957159" duration="14408000" />
       <workItem from="1643684081459" duration="317000" />
+      <workItem from="1643984439113" duration="115000" />
     </task>
     <task id="LOCAL-00001" summary="增加sentinel持久化 访问nacos数据源的依赖">
       <created>1643212772836</created>
@@ -281,7 +280,14 @@
       <option name="project" value="LOCAL" />
       <updated>1643684363845</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary=".idea">
+      <created>1643984485508</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1643984485508</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -304,12 +310,12 @@
     <MESSAGE value="增加sentinel持久化 访问nacos数据源的依赖" />
     <MESSAGE value="增加sentinel持久化配置" />
     <MESSAGE value="新增sentinel持久化配置" />
-    <MESSAGE value=".idea" />
     <MESSAGE value="测试集群流控 关闭单机流控持久化配置" />
     <MESSAGE value="consumer新增集群流控客户端、服务端依赖" />
     <MESSAGE value="consumer新增集群流控，通过SPI完成配置源注册，自定义实现接口InitFunc" />
     <MESSAGE value="target" />
     <MESSAGE value="新增服务提供方，模拟两台节点的集群" />
-    <option name="LAST_COMMIT_MESSAGE" value="新增服务提供方，模拟两台节点的集群" />
+    <MESSAGE value=".idea" />
+    <option name="LAST_COMMIT_MESSAGE" value=".idea" />
   </component>
 </project>
