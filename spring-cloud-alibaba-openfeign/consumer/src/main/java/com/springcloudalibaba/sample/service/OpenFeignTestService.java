@@ -10,8 +10,11 @@ import org.springframework.web.bind.annotation.GetMapping;
  * @describe
  */
 // 表示调用调用服务名为provider,fallback异常、限流等的自定义处理逻辑在OpenFeignTestServiceFallback类中
-@FeignClient(value = "provider",fallback = OpenFeignTestServiceFallback.class)
+@FeignClient(value = "${provider.name}",fallback = OpenFeignTestServiceFallback.class)
 public interface OpenFeignTestService {
     @GetMapping("openFeignProviderTest")
     public String openFeignProviderTest();
+
+    @GetMapping("openFeignProviderTest2")
+    public String openFeignProviderTest2();
 }

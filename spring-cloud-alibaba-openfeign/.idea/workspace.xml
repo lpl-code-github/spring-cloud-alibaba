@@ -5,8 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3935a5d2-fef4-4f24-bcae-217089953d1d" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/consumer/src/main/java/com/springcloudalibaba/sample/controller/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/consumer/src/main/java/com/springcloudalibaba/sample/controller/TestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/consumer/src/main/java/com/springcloudalibaba/sample/service/OpenFeignTestService.java" beforeDir="false" afterPath="$PROJECT_DIR$/consumer/src/main/java/com/springcloudalibaba/sample/service/OpenFeignTestService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/consumer/src/main/java/com/springcloudalibaba/sample/utils/openfeign/OpenFeignTestServiceFallback.java" beforeDir="false" afterPath="$PROJECT_DIR$/consumer/src/main/java/com/springcloudalibaba/sample/utils/openfeign/OpenFeignTestServiceFallback.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/consumer/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/consumer/src/main/resources/bootstrap.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/provider/src/main/java/com/springcloudalibaba/sample/controller/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/provider/src/main/java/com/springcloudalibaba/sample/controller/TestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/provider/src/main/resources/bootstrap.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-sentinel/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-cloud-alibaba-sentinel/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -42,13 +48,27 @@
     <option name="showVisibilityIcons" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="File.Encoding" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected="Spring Boot.ConsumerApplication">
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.ProviderApplication">
     <configuration name="ConsumerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="consumer" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.springcloudalibaba.sample.ConsumerApplication" />
@@ -72,7 +92,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1643986006941</updated>
-      <workItem from="1643986008384" duration="1793000" />
+      <workItem from="1643986008384" duration="5429000" />
     </task>
     <task id="LOCAL-00001" summary="项目重构">
       <created>1643986063014</created>
@@ -102,7 +122,14 @@
       <option name="project" value="LOCAL" />
       <updated>1643986983488</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="provider的controller层声明/openFeignProviderTest的接口，提供给消费端调用">
+      <created>1643987896850</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1643987896850</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -113,6 +140,7 @@
     <MESSAGE value="启动类增加@EnableFeignClients注解，标记启用OpenFeign" />
     <MESSAGE value=".idea" />
     <MESSAGE value="消费者集成OpenFeign" />
-    <option name="LAST_COMMIT_MESSAGE" value="消费者集成OpenFeign" />
+    <MESSAGE value="provider的controller层声明/openFeignProviderTest的接口，提供给消费端调用" />
+    <option name="LAST_COMMIT_MESSAGE" value="provider的controller层声明/openFeignProviderTest的接口，提供给消费端调用" />
   </component>
 </project>

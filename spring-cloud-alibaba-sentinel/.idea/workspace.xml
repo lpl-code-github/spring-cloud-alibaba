@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8316cd33-002b-4aef-80c0-823390096467" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-openfeign/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-cloud-alibaba-openfeign/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-openfeign/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-cloud-alibaba-openfeign/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-openfeign/provider/src/main/java/com/springcloudalibaba/sample/controller/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-cloud-alibaba-openfeign/provider/src/main/java/com/springcloudalibaba/sample/controller/TestController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />

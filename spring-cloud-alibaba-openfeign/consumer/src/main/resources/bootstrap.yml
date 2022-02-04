@@ -22,3 +22,5 @@ management:
 feign:
   sentinel:
     enabled: true # 增加对sentinel的支持，否则自定义的异常、限流等兜底方法不生效
+provider:
+  name: provider

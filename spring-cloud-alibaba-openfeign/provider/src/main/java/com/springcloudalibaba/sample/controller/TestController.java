@@ -13,4 +13,10 @@ public class TestController {
         return "provider-TestController#openFeignProviderTest" + RandomUtils.nextInt(0,100);
     }
 
+    @GetMapping("/openFeignProviderTest2") //提供消费端调用的接口
+    public String openFeignProviderTest2() {
+        int a = 1 / 0 ; //此处必报错
+        return "provider-TestController#openFeignProviderTest2" + RandomUtils.nextInt(0,100);
+    }
+
 }

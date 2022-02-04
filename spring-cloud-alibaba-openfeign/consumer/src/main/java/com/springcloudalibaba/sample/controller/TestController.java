@@ -22,4 +22,9 @@ public class TestController {
         return openFeignTestService.openFeignProviderTest();
     }
 
+    @GetMapping("/openFeginTest2")
+    public String test2(){
+        return openFeignTestService.openFeignProviderTest2();
+    }
+
 }
