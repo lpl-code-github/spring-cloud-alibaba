@@ -4,18 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3935a5d2-fef4-4f24-bcae-217089953d1d" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/provider/src/main/java/com/springcloudalibaba/sample/controller/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/provider/src/main/java/com/springcloudalibaba/sample/controller/TestController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-sentinel/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-cloud-alibaba-sentinel/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="3935a5d2-fef4-4f24-bcae-217089953d1d" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -138,7 +127,7 @@
       <option name="presentableId" value="Default" />
       <updated>1643986006941</updated>
       <workItem from="1643986008384" duration="6804000" />
-      <workItem from="1643993958980" duration="66000" />
+      <workItem from="1643993958980" duration="366000" />
     </task>
     <task id="LOCAL-00001" summary="项目重构">
       <created>1643986063014</created>
@@ -182,7 +171,14 @@
       <option name="project" value="LOCAL" />
       <updated>1643992570610</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="新增provider2，测试负载均衡">
+      <created>1643994306298</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1643994306298</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -196,6 +192,7 @@
     <MESSAGE value="消费者集成OpenFeign" />
     <MESSAGE value="provider的controller层声明/openFeignProviderTest的接口，提供给消费端调用" />
     <MESSAGE value="测试openfeign对异常情况的处理" />
-    <option name="LAST_COMMIT_MESSAGE" value="测试openfeign对异常情况的处理" />
+    <MESSAGE value="新增provider2，测试负载均衡" />
+    <option name="LAST_COMMIT_MESSAGE" value="新增provider2，测试负载均衡" />
   </component>
 </project>
