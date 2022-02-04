@@ -5,18 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8316cd33-002b-4aef-80c0-823390096467" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_8_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/provider2/provider.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/provider2/provider2.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/consumer/consumer.iml" beforeDir="false" afterPath="$PROJECT_DIR$/consumer/consumer.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/consumer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/consumer/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/consumer/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/consumer/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/consumer/target/classes/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/consumer/target/classes/bootstrap.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/provider/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/provider/src/main/resources/bootstrap.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -199,6 +188,7 @@
       <workItem from="1642137156654" duration="21320000" />
       <workItem from="1643212511094" duration="3135000" />
       <workItem from="1643623957159" duration="14408000" />
+      <workItem from="1643684081459" duration="317000" />
     </task>
     <task id="LOCAL-00001" summary="增加sentinel持久化 访问nacos数据源的依赖">
       <created>1643212772836</created>
@@ -249,7 +239,49 @@
       <option name="project" value="LOCAL" />
       <updated>1643630520817</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="测试集群流控 关闭单机流控持久化配置">
+      <created>1643684148691</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1643684148691</updated>
+    </task>
+    <task id="LOCAL-00009" summary="target">
+      <created>1643684178556</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1643684178556</updated>
+    </task>
+    <task id="LOCAL-00010" summary="consumer新增集群流控客户端、服务端依赖">
+      <created>1643684225297</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1643684225297</updated>
+    </task>
+    <task id="LOCAL-00011" summary="consumer新增集群流控，通过SPI完成配置源注册，自定义实现接口InitFunc">
+      <created>1643684306389</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1643684306389</updated>
+    </task>
+    <task id="LOCAL-00012" summary="target">
+      <created>1643684318834</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1643684318834</updated>
+    </task>
+    <task id="LOCAL-00013" summary="新增服务提供方，模拟两台节点的集群">
+      <created>1643684363845</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1643684363845</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -271,9 +303,13 @@
     <MESSAGE value="commit" />
     <MESSAGE value="增加sentinel持久化 访问nacos数据源的依赖" />
     <MESSAGE value="增加sentinel持久化配置" />
-    <MESSAGE value="target" />
     <MESSAGE value="新增sentinel持久化配置" />
     <MESSAGE value=".idea" />
-    <option name="LAST_COMMIT_MESSAGE" value=".idea" />
+    <MESSAGE value="测试集群流控 关闭单机流控持久化配置" />
+    <MESSAGE value="consumer新增集群流控客户端、服务端依赖" />
+    <MESSAGE value="consumer新增集群流控，通过SPI完成配置源注册，自定义实现接口InitFunc" />
+    <MESSAGE value="target" />
+    <MESSAGE value="新增服务提供方，模拟两台节点的集群" />
+    <option name="LAST_COMMIT_MESSAGE" value="新增服务提供方，模拟两台节点的集群" />
   </component>
 </project>
