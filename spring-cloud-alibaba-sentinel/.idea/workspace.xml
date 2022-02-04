@@ -6,8 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="8316cd33-002b-4aef-80c0-823390096467" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-openfeign/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-cloud-alibaba-openfeign/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-openfeign/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-cloud-alibaba-openfeign/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-openfeign/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-cloud-alibaba-openfeign/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-openfeign/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-cloud-alibaba-openfeign/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-cloud-alibaba-openfeign/provider/src/main/java/com/springcloudalibaba/sample/controller/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-cloud-alibaba-openfeign/provider/src/main/java/com/springcloudalibaba/sample/controller/TestController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -193,6 +195,7 @@
       <workItem from="1643684081459" duration="317000" />
       <workItem from="1643984439113" duration="115000" />
       <workItem from="1643985319380" duration="641000" />
+      <workItem from="1643993297033" duration="17000" />
     </task>
     <task id="LOCAL-00001" summary="增加sentinel持久化 访问nacos数据源的依赖">
       <created>1643212772836</created>
