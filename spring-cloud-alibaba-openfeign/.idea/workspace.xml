@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3935a5d2-fef4-4f24-bcae-217089953d1d" name="Changes" comment="" />
+    <list default="true" id="3935a5d2-fef4-4f24-bcae-217089953d1d" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/consumer/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/consumer/src/main/resources/bootstrap.yml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -127,7 +130,10 @@
       <option name="presentableId" value="Default" />
       <updated>1643986006941</updated>
       <workItem from="1643986008384" duration="6804000" />
-      <workItem from="1643993958980" duration="366000" />
+      <workItem from="1643993958980" duration="452000" />
+      <workItem from="1644576389439" duration="298000" />
+      <workItem from="1644576711477" duration="1128000" />
+      <workItem from="1644670310412" duration="359000" />
     </task>
     <task id="LOCAL-00001" summary="项目重构">
       <created>1643986063014</created>
@@ -178,7 +184,14 @@
       <option name="project" value="LOCAL" />
       <updated>1643994306298</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary=".idea">
+      <created>1643994395913</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1643994395913</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -188,11 +201,11 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="项目重构" />
     <MESSAGE value="启动类增加@EnableFeignClients注解，标记启用OpenFeign" />
-    <MESSAGE value=".idea" />
     <MESSAGE value="消费者集成OpenFeign" />
     <MESSAGE value="provider的controller层声明/openFeignProviderTest的接口，提供给消费端调用" />
     <MESSAGE value="测试openfeign对异常情况的处理" />
     <MESSAGE value="新增provider2，测试负载均衡" />
-    <option name="LAST_COMMIT_MESSAGE" value="新增provider2，测试负载均衡" />
+    <MESSAGE value=".idea" />
+    <option name="LAST_COMMIT_MESSAGE" value=".idea" />
   </component>
 </project>

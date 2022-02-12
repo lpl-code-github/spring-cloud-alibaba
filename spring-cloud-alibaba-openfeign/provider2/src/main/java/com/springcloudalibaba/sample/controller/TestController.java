@@ -14,6 +14,12 @@ public class TestController {
     @GetMapping("/openFeignProviderTest") //提供消费端调用的接口
     public String openFeignProviderTest() {
         //return "provider-TestController#openFeignProviderTest" + RandomUtils.nextInt(0,100);
+        // 新增耗时操作测试
+        try {
+            Thread.sleep(4000); // 等待4秒，模拟耗时业务
+        }catch (InterruptedException e){
+            e.printStackTrace();
+        }
         return "provider-TestController#openFeignProviderTest " + serverPort;
     }
 

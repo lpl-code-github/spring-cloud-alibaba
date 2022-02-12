@@ -22,5 +22,10 @@ management:
 feign:
   sentinel:
     enabled: true # 增加对sentinel的支持，否则自定义的异常、限流等兜底方法不生效
+  client:
+    config:
+      default:
+        connectTimeout: 5000 # 建立连接所用的时间（单位：毫秒）
+        readTimeout: 5000 # 建立连接后从服务器读取到资源所用的时间（单位：毫秒）
 provider:
   name: provider
