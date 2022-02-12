@@ -23,4 +23,10 @@ public class OpenFeignTestServiceFallback implements OpenFeignTestService {
     public String openFeignProviderTest2() {
         return "这里是兜底方法";
     }
+
+    @Override
+    public String paramsProviderTest(String name, Integer id) {
+        return "这里是兜底方法";
+    }
+
 }

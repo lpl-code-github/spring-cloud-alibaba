@@ -17,14 +17,19 @@ public class TestController {
     @Autowired
     private OpenFeignTestService openFeignTestService;
 
-    @GetMapping("/openFeginTest")
+    @GetMapping("/openFeignTest")
     public String test(){
         return openFeignTestService.openFeignProviderTest();
     }
 
-    @GetMapping("/openFeginTest2")
+    @GetMapping("/openFeignTest2")
     public String test2(){
         return openFeignTestService.openFeignProviderTest2();
+    }
+
+    @GetMapping("/openFeignParamsTest")
+    public String test3(){
+        return openFeignTestService.paramsProviderTest("lpl",1);
     }
 
 }
