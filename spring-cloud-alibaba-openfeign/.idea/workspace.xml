@@ -4,18 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3935a5d2-fef4-4f24-bcae-217089953d1d" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/consumer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/consumer/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/consumer/src/main/java/com/springcloudalibaba/sample/controller/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/consumer/src/main/java/com/springcloudalibaba/sample/controller/TestController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/consumer/src/main/java/com/springcloudalibaba/sample/service/OpenFeignTestService.java" beforeDir="false" afterPath="$PROJECT_DIR$/consumer/src/main/java/com/springcloudalibaba/sample/service/OpenFeignTestService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/consumer/src/main/java/com/springcloudalibaba/sample/utils/openfeign/OpenFeignTestServiceFallback.java" beforeDir="false" afterPath="$PROJECT_DIR$/consumer/src/main/java/com/springcloudalibaba/sample/utils/openfeign/OpenFeignTestServiceFallback.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/consumer/target/classes/com/springcloudalibaba/sample/service/OpenFeignTestService.class" beforeDir="false" afterPath="$PROJECT_DIR$/consumer/target/classes/com/springcloudalibaba/sample/service/OpenFeignTestService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/provider/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/provider/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/provider/src/main/java/com/springcloudalibaba/sample/controller/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/provider/src/main/java/com/springcloudalibaba/sample/controller/TestController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/provider2/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/provider2/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/provider2/src/main/java/com/springcloudalibaba/sample/controller/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/provider2/src/main/java/com/springcloudalibaba/sample/controller/TestController.java" afterDir="false" />
-    </list>
+    <list default="true" id="3935a5d2-fef4-4f24-bcae-217089953d1d" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -150,7 +139,7 @@
       <workItem from="1643993958980" duration="452000" />
       <workItem from="1644576389439" duration="298000" />
       <workItem from="1644576711477" duration="1128000" />
-      <workItem from="1644670310412" duration="6208000" />
+      <workItem from="1644670310412" duration="6598000" />
     </task>
     <task id="LOCAL-00001" summary="项目重构">
       <created>1643986063014</created>
@@ -250,7 +239,21 @@
       <option name="project" value="LOCAL" />
       <updated>1644677077640</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="@SpringQueryMap传递对象">
+      <created>1644677960183</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1644677960183</updated>
+    </task>
+    <task id="LOCAL-00016" summary="新增公共模块，作为依赖引入服务提供者、服务消费者">
+      <created>1644677985904</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1644677985904</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -271,6 +274,8 @@
     <MESSAGE value="OpenFegin配置请求和响应进行gzip压缩，提高数据传输中的效率" />
     <MESSAGE value="target" />
     <MESSAGE value="openfeign传递简单参数" />
-    <option name="LAST_COMMIT_MESSAGE" value="openfeign传递简单参数" />
+    <MESSAGE value="@SpringQueryMap传递对象" />
+    <MESSAGE value="新增公共模块，作为依赖引入服务提供者、服务消费者" />
+    <option name="LAST_COMMIT_MESSAGE" value="新增公共模块，作为依赖引入服务提供者、服务消费者" />
   </component>
 </project>
