@@ -1,5 +1,6 @@
 package com.springcloudalibaba.sample.controller;
 
+import com.cloud.openfeign.entity.Params;
 import org.apache.commons.lang3.RandomUtils;
 
 import org.springframework.beans.factory.annotation.Value;
@@ -36,6 +37,14 @@ public class TestController {
                 serverPort +
                 ",id=" + id +
                 ",name=" + name;
+    }
+
+    @GetMapping("/springQueryMapProviderTest")
+    public String springQueryMapProviderTest(Params params) {
+        return "provider-TestController#springQueryMapProviderTest,prot=" +
+                serverPort +
+                ",id=" + params.getId() +
+                ",name=" + params.getName();
     }
 
 }

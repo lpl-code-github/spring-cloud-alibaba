@@ -1,5 +1,6 @@
 package com.springcloudalibaba.sample.utils.openfeign;
 
+import com.cloud.openfeign.entity.Params;
 import com.springcloudalibaba.sample.service.OpenFeignTestService;
 import org.springframework.stereotype.Component;
 
@@ -26,6 +27,11 @@ public class OpenFeignTestServiceFallback implements OpenFeignTestService {
 
     @Override
     public String paramsProviderTest(String name, Integer id) {
+        return "这里是兜底方法";
+    }
+
+    @Override
+    public String springQueryMapProviderTest(Params params) {
         return "这里是兜底方法";
     }
 

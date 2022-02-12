@@ -1,7 +1,9 @@
 package com.springcloudalibaba.sample.service;
 
+import com.cloud.openfeign.entity.Params;
 import com.springcloudalibaba.sample.utils.openfeign.OpenFeignTestServiceFallback;
 import org.springframework.cloud.openfeign.FeignClient;
+import org.springframework.cloud.openfeign.SpringQueryMap;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
@@ -21,4 +23,7 @@ public interface OpenFeignTestService {
 
     @GetMapping("paramsProviderTest")
     public String paramsProviderTest(@RequestParam("name") String name, @RequestParam("id") Integer id);
+
+    @GetMapping("springQueryMapProviderTest")
+    public String springQueryMapProviderTest(@SpringQueryMap Params params);
 }

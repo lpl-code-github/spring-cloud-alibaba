@@ -5,17 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3935a5d2-fef4-4f24-bcae-217089953d1d" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/consumer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/consumer/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/consumer/src/main/java/com/springcloudalibaba/sample/controller/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/consumer/src/main/java/com/springcloudalibaba/sample/controller/TestController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/consumer/src/main/java/com/springcloudalibaba/sample/service/OpenFeignTestService.java" beforeDir="false" afterPath="$PROJECT_DIR$/consumer/src/main/java/com/springcloudalibaba/sample/service/OpenFeignTestService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/consumer/src/main/java/com/springcloudalibaba/sample/utils/openfeign/OpenFeignTestServiceFallback.java" beforeDir="false" afterPath="$PROJECT_DIR$/consumer/src/main/java/com/springcloudalibaba/sample/utils/openfeign/OpenFeignTestServiceFallback.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/consumer/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/consumer/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/consumer/target/classes/com/springcloudalibaba/sample/controller/TestController.class" beforeDir="false" afterPath="$PROJECT_DIR$/consumer/target/classes/com/springcloudalibaba/sample/controller/TestController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/consumer/target/classes/com/springcloudalibaba/sample/utils/openfeign/OpenFeignTestServiceFallback.class" beforeDir="false" afterPath="$PROJECT_DIR$/consumer/target/classes/com/springcloudalibaba/sample/utils/openfeign/OpenFeignTestServiceFallback.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/consumer/target/classes/com/springcloudalibaba/sample/service/OpenFeignTestService.class" beforeDir="false" afterPath="$PROJECT_DIR$/consumer/target/classes/com/springcloudalibaba/sample/service/OpenFeignTestService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/provider/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/provider/src/main/java/com/springcloudalibaba/sample/controller/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/provider/src/main/java/com/springcloudalibaba/sample/controller/TestController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/provider/target/classes/com/springcloudalibaba/sample/controller/TestController.class" beforeDir="false" afterPath="$PROJECT_DIR$/provider/target/classes/com/springcloudalibaba/sample/controller/TestController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider2/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/provider2/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/provider2/src/main/java/com/springcloudalibaba/sample/controller/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/provider2/src/main/java/com/springcloudalibaba/sample/controller/TestController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/provider2/target/classes/com/springcloudalibaba/sample/controller/TestController.class" beforeDir="false" afterPath="$PROJECT_DIR$/provider2/target/classes/com/springcloudalibaba/sample/controller/TestController.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -151,7 +150,7 @@
       <workItem from="1643993958980" duration="452000" />
       <workItem from="1644576389439" duration="298000" />
       <workItem from="1644576711477" duration="1128000" />
-      <workItem from="1644670310412" duration="5465000" />
+      <workItem from="1644670310412" duration="6208000" />
     </task>
     <task id="LOCAL-00001" summary="项目重构">
       <created>1643986063014</created>
@@ -244,7 +243,14 @@
       <option name="project" value="LOCAL" />
       <updated>1644673331164</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="openfeign传递简单参数">
+      <created>1644677077640</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1644677077640</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -264,6 +270,7 @@
     <MESSAGE value="新增OpenFeign日志级别的配置" />
     <MESSAGE value="OpenFegin配置请求和响应进行gzip压缩，提高数据传输中的效率" />
     <MESSAGE value="target" />
-    <option name="LAST_COMMIT_MESSAGE" value="target" />
+    <MESSAGE value="openfeign传递简单参数" />
+    <option name="LAST_COMMIT_MESSAGE" value="openfeign传递简单参数" />
   </component>
 </project>
