@@ -20,20 +20,27 @@ management:
       exposure:
         include: '*' # 公开所有端点
 feign:
+  compression:
+    request:
+      enabled: true # 请求压缩启用
+      mime-types: text/xml,application/xml,application/json # 要压缩的类型
+      min-request-size: 2048 # 最小请求长度（单位：字节）
+    response:
+      enabled: true
   sentinel:
     enabled: true # 增加对sentinel的支持，否则自定义的异常、限流等兜底方法不生效
 # openFeign的超时配置
-#  client:
-#    config:
-#      default:
-#        connectTimeout: 5000 # 建立连接所用的时间（单位：毫秒）
-#        readTimeout: 5000 # 建立连接后从服务器读取到资源所用的时间（单位：毫秒）
+  client:
+    config:
+      default:
+        connectTimeout: 5000 # 建立连接所用的时间（单位：毫秒）
+        readTimeout: 5000 # 建立连接后从服务器读取到资源所用的时间（单位：毫秒）
 #使用ribbon的超时配置
-ribbon:
-  ConnectTimeout: 5000 # 建立连接所用的时间（单位：毫秒）
-  ReadTimeout: 5000 # 建立连接后从服务器读取到资源所用的时间（单位：毫秒）
+#ribbon:
+#  ConnectTimeout: 5000 # 建立连接所用的时间（单位：毫秒）
+#  ReadTimeout: 5000 # 建立连接后从服务器读取到资源所用的时间（单位：毫秒）
 provider:
   name: provider
 logging:
   level:
-    com.springcloudalibaba.sample.service:debug #打印指定包的日志 debug级别
+    com.springcloudalibaba.sample.service: debug #打印指定包的日志 debug级别

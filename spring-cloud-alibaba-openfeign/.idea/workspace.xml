@@ -133,7 +133,7 @@
       <workItem from="1643993958980" duration="452000" />
       <workItem from="1644576389439" duration="298000" />
       <workItem from="1644576711477" duration="1128000" />
-      <workItem from="1644670310412" duration="2079000" />
+      <workItem from="1644670310412" duration="2852000" />
     </task>
     <task id="LOCAL-00001" summary="项目重构">
       <created>1643986063014</created>
@@ -205,7 +205,14 @@
       <option name="project" value="LOCAL" />
       <updated>1644671809796</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="新增OpenFeign日志级别的配置">
+      <created>1644672423045</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1644672423045</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -222,6 +229,7 @@
     <MESSAGE value=".idea" />
     <MESSAGE value="新增耗时操作测试" />
     <MESSAGE value="使用ribbon的超时配置" />
-    <option name="LAST_COMMIT_MESSAGE" value="使用ribbon的超时配置" />
+    <MESSAGE value="新增OpenFeign日志级别的配置" />
+    <option name="LAST_COMMIT_MESSAGE" value="新增OpenFeign日志级别的配置" />
   </component>
 </project>

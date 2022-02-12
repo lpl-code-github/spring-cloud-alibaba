@@ -29,8 +29,11 @@ feign:
 #        connectTimeout: 5000 # 建立连接所用的时间（单位：毫秒）
 #        readTimeout: 5000 # 建立连接后从服务器读取到资源所用的时间（单位：毫秒）
 #使用ribbon的超时配置
-#ribbon:
-#  ConnectTimeout: 5000 # 建立连接所用的时间（单位：毫秒）
-#  ReadTimeout: 5000 # 建立连接后从服务器读取到资源所用的时间（单位：毫秒）
+ribbon:
+  ConnectTimeout: 5000 # 建立连接所用的时间（单位：毫秒）
+  ReadTimeout: 5000 # 建立连接后从服务器读取到资源所用的时间（单位：毫秒）
 provider:
   name: provider
+logging:
+  level:
+    com.springcloudalibaba.sample.service: debug #打印指定包的日志 debug级别
