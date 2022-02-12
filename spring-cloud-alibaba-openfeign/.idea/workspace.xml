@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3935a5d2-fef4-4f24-bcae-217089953d1d" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/consumer/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/consumer/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/provider/target/classes/com/springcloudalibaba/sample/controller/TestController.class" beforeDir="false" afterPath="$PROJECT_DIR$/provider/target/classes/com/springcloudalibaba/sample/controller/TestController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/provider2/target/classes/com/springcloudalibaba/sample/controller/TestController.class" beforeDir="false" afterPath="$PROJECT_DIR$/provider2/target/classes/com/springcloudalibaba/sample/controller/TestController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/consumer/target/classes/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/consumer/target/classes/bootstrap.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,8 +16,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -135,7 +133,7 @@
       <workItem from="1643993958980" duration="452000" />
       <workItem from="1644576389439" duration="298000" />
       <workItem from="1644576711477" duration="1128000" />
-      <workItem from="1644670310412" duration="1176000" />
+      <workItem from="1644670310412" duration="2079000" />
     </task>
     <task id="LOCAL-00001" summary="项目重构">
       <created>1643986063014</created>
@@ -200,7 +198,14 @@
       <option name="project" value="LOCAL" />
       <updated>1644670816956</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="使用ribbon的超时配置">
+      <created>1644671809796</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1644671809796</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -216,6 +221,7 @@
     <MESSAGE value="新增provider2，测试负载均衡" />
     <MESSAGE value=".idea" />
     <MESSAGE value="新增耗时操作测试" />
-    <option name="LAST_COMMIT_MESSAGE" value="新增耗时操作测试" />
+    <MESSAGE value="使用ribbon的超时配置" />
+    <option name="LAST_COMMIT_MESSAGE" value="使用ribbon的超时配置" />
   </component>
 </project>
