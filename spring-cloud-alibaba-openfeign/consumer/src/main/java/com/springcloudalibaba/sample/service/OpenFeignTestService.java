@@ -1,10 +1,14 @@
 package com.springcloudalibaba.sample.service;
 
+import com.cloud.openfeign.entity.ComplexObject;
 import com.cloud.openfeign.entity.Params;
+import com.cloud.openfeign.entity.Result;
 import com.springcloudalibaba.sample.utils.openfeign.OpenFeignTestServiceFallback;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.cloud.openfeign.SpringQueryMap;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestParam;
 
 /**
@@ -26,4 +30,7 @@ public interface OpenFeignTestService {
 
     @GetMapping("springQueryMapProviderTest")
     public String springQueryMapProviderTest(@SpringQueryMap Params params);
+
+    @PostMapping("complexObjectProviderTest")
+    public Result complexObjectProviderTest(@RequestBody ComplexObject complexObject);
 }

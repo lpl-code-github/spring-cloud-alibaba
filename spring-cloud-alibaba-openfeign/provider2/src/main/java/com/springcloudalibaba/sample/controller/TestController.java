@@ -1,12 +1,14 @@
 package com.springcloudalibaba.sample.controller;
 
+import com.cloud.openfeign.entity.ComplexObject;
 import com.cloud.openfeign.entity.Params;
+import com.cloud.openfeign.entity.Result;
 import org.apache.commons.lang3.RandomUtils;
 
 import org.springframework.beans.factory.annotation.Value;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
+
+import java.sql.ResultSet;
 
 @RestController
 public class TestController {
@@ -45,6 +47,20 @@ public class TestController {
                 serverPort +
                 ",id=" + params.getId() +
                 ",name=" + params.getName();
+    }
+
+    @PostMapping("/complexObjectProviderTest")
+    public Result complexObjectProviderTest(@RequestBody ComplexObject complexObject) {
+        String description ="provider-TestController#complexObjectProviderTest,prot=" +
+                serverPort +
+                ",id=" + complexObject.getParams().getId() +
+                ",name=" + complexObject.getParams().getName();
+
+        Result result = new Result();
+        result.setCode(200)
+                .setDescription(description);
+
+        return result;
     }
 
 }

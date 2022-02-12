@@ -1,12 +1,16 @@
 package com.springcloudalibaba.sample.controller;
 
+import com.cloud.openfeign.entity.ComplexObject;
 import com.cloud.openfeign.entity.Params;
+import com.cloud.openfeign.entity.Result;
 import com.springcloudalibaba.sample.service.OpenFeignTestService;
 import com.springcloudalibaba.sample.utils.openfeign.OpenFeignTestServiceFallback;
 import org.apache.commons.lang3.RandomUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.client.RestTemplate;
 
@@ -42,4 +46,8 @@ public class TestController {
         return openFeignTestService.springQueryMapProviderTest(params);
     }
 
+    @PostMapping("/openFeignParamsTest3")
+    public Result test5(@RequestBody ComplexObject complexObject) {
+        return openFeignTestService.complexObjectProviderTest(complexObject);
+    }
 }
