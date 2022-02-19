@@ -4,19 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3935a5d2-fef4-4f24-bcae-217089953d1d" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/consumer/src/main/java/com/springcloudalibaba/sample/controller/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/consumer/src/main/java/com/springcloudalibaba/sample/controller/TestController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/consumer/src/main/java/com/springcloudalibaba/sample/service/OpenFeignTestService.java" beforeDir="false" afterPath="$PROJECT_DIR$/consumer/src/main/java/com/springcloudalibaba/sample/service/OpenFeignTestService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/consumer/src/main/java/com/springcloudalibaba/sample/utils/openfeign/OpenFeignTestServiceFallback.java" beforeDir="false" afterPath="$PROJECT_DIR$/consumer/src/main/java/com/springcloudalibaba/sample/utils/openfeign/OpenFeignTestServiceFallback.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/consumer/target/classes/com/springcloudalibaba/sample/controller/TestController.class" beforeDir="false" afterPath="$PROJECT_DIR$/consumer/target/classes/com/springcloudalibaba/sample/controller/TestController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/consumer/target/classes/com/springcloudalibaba/sample/service/OpenFeignTestService.class" beforeDir="false" afterPath="$PROJECT_DIR$/consumer/target/classes/com/springcloudalibaba/sample/service/OpenFeignTestService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/consumer/target/classes/com/springcloudalibaba/sample/utils/openfeign/OpenFeignTestServiceFallback.class" beforeDir="false" afterPath="$PROJECT_DIR$/consumer/target/classes/com/springcloudalibaba/sample/utils/openfeign/OpenFeignTestServiceFallback.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/provider/src/main/java/com/springcloudalibaba/sample/controller/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/provider/src/main/java/com/springcloudalibaba/sample/controller/TestController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/provider/target/classes/com/springcloudalibaba/sample/controller/TestController.class" beforeDir="false" afterPath="$PROJECT_DIR$/provider/target/classes/com/springcloudalibaba/sample/controller/TestController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/provider2/src/main/java/com/springcloudalibaba/sample/controller/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/provider2/src/main/java/com/springcloudalibaba/sample/controller/TestController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/provider2/target/classes/com/springcloudalibaba/sample/controller/TestController.class" beforeDir="false" afterPath="$PROJECT_DIR$/provider2/target/classes/com/springcloudalibaba/sample/controller/TestController.class" afterDir="false" />
-    </list>
+    <list default="true" id="3935a5d2-fef4-4f24-bcae-217089953d1d" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -151,7 +139,7 @@
       <workItem from="1643993958980" duration="452000" />
       <workItem from="1644576389439" duration="298000" />
       <workItem from="1644576711477" duration="1128000" />
-      <workItem from="1644670310412" duration="8359000" />
+      <workItem from="1644670310412" duration="8425000" />
     </task>
     <task id="LOCAL-00001" summary="项目重构">
       <created>1643986063014</created>
@@ -279,7 +267,14 @@
       <option name="project" value="LOCAL" />
       <updated>1644678219900</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="传递复杂对象">
+      <created>1644679996013</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1644679996013</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -304,6 +299,7 @@
     <MESSAGE value="新增公共模块，作为依赖引入服务提供者、服务消费者" />
     <MESSAGE value="参数ComplexObject对象" />
     <MESSAGE value="返回值Result对象" />
-    <option name="LAST_COMMIT_MESSAGE" value="返回值Result对象" />
+    <MESSAGE value="传递复杂对象" />
+    <option name="LAST_COMMIT_MESSAGE" value="传递复杂对象" />
   </component>
 </project>
